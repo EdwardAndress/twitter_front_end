@@ -15,7 +15,7 @@ body {
 #background{
 	height: 50%;
 	position: fixed;
-	top: -10px;
+	top: 60px;
 	left: -5px;
 }
 
@@ -34,7 +34,7 @@ body {
 .tweet-container {
 	position: absolute;
 	top: 100px;
-	left: 350px;
+	left: 315px;
 	background: lightgrey;
 	margin: 0 auto;
 	overflow: auto;
@@ -89,7 +89,7 @@ body {
 .current-user-container {
 	position: absolute;
 	top: 100px;
-	left: 50px;
+	left: 40px;
 	float: left;
 	width: 20%;
 	height: 40%;
@@ -112,20 +112,35 @@ body {
 #current-user-top {
 	height: 40%;
 	border-bottom: 1px solid #666;
+	z-index: 0;
 }
 
 #current-user-middle {
 	height: 40%;
 	border-bottom: 1px solid #666;
+	z-index: +1;
 }
 
 #current-user-bottom {}
 
 .trends-container {
 	position: absolute;
-	top: 340px;
-	left: 50px;
+	top: 380px;
+	left: 40px;
 	float: left;
+	width: 20%;
+	height: 40%;
+	background: lightgrey;
+	border: 1px solid #666;
+	border-radius: 10px;
+	z-index: 0
+}
+
+.who-to-follow {
+	position: absolute;
+	top: 100px;
+	right: 45px;
+	float: right;
 	width: 20%;
 	height: 40%;
 	background: lightgrey;
